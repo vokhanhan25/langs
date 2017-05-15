@@ -4,7 +4,7 @@
 ```
 <Nhập thư viện>
 
-<using namespace std>
+<using namespace std;>
 
 <Định nghĩa kiểu dữ liệu>
 
@@ -16,6 +16,25 @@ void main() {
       <Chương trình chính>
 }
 ```
+
+# Nhập thư viện
+# Cú pháp
+```
+#include <tên thư viện>
+```
+Ví dụ: 
+```
+#include <iostream>
+#include <math.h>
+#include <string>
+```
+# Các thư viện thường dùng
+- Nhập xuất C: stdio.h
+- Nhập xuất C++: iostream
+- Toán: math.h hoặc cmath
+- Chuỗi C++: string
+- Chuỗi C: string.h hoặc cstring
+- .....
 
 # Kiểu dữ liệu 
 - boolean: bool
