@@ -12,10 +12,15 @@
 
 <Code hàm số, thủ tục>
 
-void main() {
+int main() {
       <Chương trình chính>
+      return 0;
 }
 ```
+
+
+# Gán giá trị
+Dùng = thay vì :=
 
 # Nhập thư viện
 # Cú pháp
@@ -73,7 +78,25 @@ int b = 1;
 int x, y, z;
 int e, f = 2;
 bool boo = e < f;
+int m = n = 100; // 
 ```
+
+# Hàm số, thủ tục
+## Cú pháp
+```
+<Kiểu dữ liệu trả về> <Tên hàm>(<danh sách biến truyền vào>) {
+      <Code>
+      return <giá trị trả về>;
+}
+```
+Nếu hàm không cần trả về thì kiểu dữ liệu là void.
+Ví dụ:
+```
+int add(int a, int b) {
+    return a + b;
+}
+```
+
 # Nhập, xuất (màn hình)
 ## Nhập xuất kiểu C++
 ``` c++
