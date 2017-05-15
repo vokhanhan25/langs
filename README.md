@@ -1,8 +1,27 @@
+
+# Cấu trúc chương trình
+
+```
+<Nhập thư viện>
+
+<using namespace std>
+
+<Định nghĩa kiểu dữ liệu>
+
+<Khai báo biến toàn cục>
+
+<Code hàm số, thủ tục>
+
+void main() {
+      <Chương trình chính>
+}
+```
+
 # Kiểu dữ liệu 
-- boolean -> bool
-- longint -> int
-- int64 -> long long
-- char -> char
+- boolean: bool
+- longint: int
+- int64: long long
+- char: char
 - Kiểu số thực: double
 
 ## Record
@@ -14,7 +33,8 @@ struct HocSinh {
 # Mảng tĩnh
 ## Khai báo
 - <Kiểu dữ liệu> <Tên biến>[<số phần tử>];
-- <Kiểu dữ liệu> <Tên biến>[<số phần tử>] = {<giá trị khởi tạo>,....};
+- <Kiểu dữ liệu> <Tên biến>[<số phần tử>] = {<các giá trị của mảng>};
+
 VD:
 ```
 int a[10];
@@ -26,6 +46,7 @@ int c[3] = {4, 5, 6};
 Cú pháp:
 - <Kiểu dữ liệu> <Tên biến>,...;
 - <Kiểu dữ liệu> <Tên biến> = <Giá trị khởi tạo>,...;
+
 VD:
 ``` c++
 int a;
